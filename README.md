@@ -1,4 +1,4 @@
-# Sentinel
+# Sentinel (wip)
 Sentinel is a straightforward online exam website that uses AI (artificial intelligence) to keep exams fair and secure. It has three main features:
 
 1. **Face Detection**: To check if students are facing the screen during the exam.
