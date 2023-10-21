@@ -1,13 +1,36 @@
-# Sentinel (wip)
-Sentinel is a straightforward virtual exam website that uses AI (artificial intelligence) to keep exams fair and secure. It has three main features:
+# Sentinel 🚧
+A virtual assessment website that utilized artificial intelligence (AI) to proctor students.
 
-1. **Face Detection**: To check if students are facing the screen during the exam.
+## Main Features
+There are three main features, which are as follows:
+<dl>
+  <dt>Face Detection</dt>
+  <dd>For verifying that students are consistently facing their screens.</dd>
+  <dt>Event Log</dt>
+  <dd>For maintaining the records of all students actions and interactions during the assessment.</dd>
+  <dt>Restroom Breaks</dt>
+  <dd>For allowing students to take up to two 5-minutes breaks.</dd>
+</dl>
 
-2. **Activity Log**: To keep a record of when students are not facing the screen or take restroom breaks, including their names, IDs, and the time of the incident.
+## Artificial Intelligence (AI)
+[face-api.js](https://github.com/justadudewhohacks/face-api,js) is used to automate student proctoring. The settings are as follows:
+<table>
+  <tr>
+    <th align="left">Face Detection Model</th>
+    <td align="center">Tiny Face Detector</td>
+  </tr>
+  <tr>
+    <th align="left">Face Landmark</th>
+    <td align="center">Available</td>
+  </tr>
+  <tr>
+    <th align="left">Confidence Threshold</th>
+    <td align="center">0.60</td>
+  </tr>
+</table>
 
-3. **Restroom Breaks**: Students can take restroom breaks, but they are limited to two breaks, and each break can only last for 5 minutes.
-
-Built with HTML5, CSS (along with Bootstrap 5), JavaScript (including [face-api.js](https://github.com/justadudewhohacks/face-api.js/) library), and PHP. Uses the Fetch API to update the database.
+## Status
+`Sentinel` is still work in progress.
 
 ## Screenshots
 Coming soon.
