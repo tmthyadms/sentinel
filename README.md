@@ -1,5 +1,5 @@
 # Sentinel 🚧
-A virtual assessment website that utilized artificial intelligence (AI) to proctor students.
+An online assessment website to proctor students using neural network.
 
 ## Main Features
 There are three main features, which are as follows:
